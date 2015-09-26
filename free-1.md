@@ -36,7 +36,7 @@ The tkz-euclid solution on the other hand, has a static textual interface. You
 can draw lines, draw shapes, and label intersections. The system is
 impressively complete, but seems cryptic at times. It is not clear how to do
 things like find an intersection, and more generally you don't always know what
-options are available to you. Furthmore, the names of the language correspond
+options are available to you. Furthermore, the names of the language correspond
 vaguely to the mathematical writing that they are based on, but are heavily
 constrained by LaTeX
 
@@ -56,7 +56,7 @@ I think that I should address this question in two parts:
 1. Why interactive? Is making something interactive really part of DSLs? Is
    making something interactive really changing the language? I argue yes.
    Language is fundamentally a framework for communication. To me it seems odd
-   that programming languages so far hav just been about users telling
+   that programming languages so far have just been about users telling
    computers what to do. Allowing for computers to give feedback to users
    expands the language to allow for 2-way communication. And the way the
    computer sends back information will need to be designed well to make it
@@ -98,14 +98,18 @@ The first of these is the static mode. People write stuff like above and
 trigger compilation which generates an image or LaTeX code, or something like
 that.
 
-The more intersting would be interactive mode, where as the users enter each
+The more interesting would be interactive mode, where as the users enter each
 line the image is drawn for them to see what they have, as well as to indicate
-potentially intersting thing to do next (IE, higlighting the tangent point
+potentially interesting thing to do next (IE, highlighting the tangent point
 after drawing a tangent). Using this information the users can issue special
 interactive commands that act on those possibilities.
 
 At the end of the session the user could export the image, LaTeX, or DSL code
 that would have created the image they ended up creating interactively.
+
+When errors occurs statically, they would be reported along with the part of
+the program which caused the error. When they occur interactively they would be
+reported right away, and the current drawing would remain unchanged.
 
 ### Expressiveness
 
@@ -115,7 +119,7 @@ and format them in simple ways (rotation, size, cropping, labelling, etc).
 It should be hard to make really complex drawings with lots of parts. Visual
 clutter is not something that is desirable in geometry.
 
-It should be impossible/extremely difficult to simulate a turing machine. This
+It should be impossible/extremely difficult to simulate a Turing machine. This
 language is not for computation. In the end it is an assistive formatting
 language.
 
@@ -157,7 +161,7 @@ If I were building this from the ground up this would probably be way to
 **systems** heavy.
 
 I think if on doesn't accepted the computer feedback and user response to that
-feedback as part of the language, this proect would be entirely unsuitable.
+feedback as part of the language, this project would be entirely unsuitable.
 Because I think language is a 2-way street, I would say that it is suitable
 (see the [Why a Language](#whyalanguage) section.
 
