@@ -49,11 +49,11 @@ and what they could choose to do next.
 ### Why a language?
 
 I think that I should address this question in two parts:
-1. This question should be solved with a DSL because geometric writing is
+   1. This question should be solved with a DSL because geometric writing is
    already designed to unambiguously communicate geometric constructions. There
    we should try to teach computers how to understand that language, or
    something similar to it.
-1. Why interactive? Is making something interactive really part of DSLs? Is
+   1. Why interactive? Is making something interactive really part of DSLs? Is
    making something interactive really changing the language? I argue yes.
    Language is fundamentally a framework for communication. To me it seems odd
    that programming languages so far have just been about users telling
@@ -163,7 +163,7 @@ If I were building this from the ground up this would probably be way to
 I think if on doesn't accepted the computer feedback and user response to that
 feedback as part of the language, this project would be entirely unsuitable.
 Because I think language is a 2-way street, I would say that it is suitable
-(see the [Why a Language](#whyalanguage) section.
+(see the "Why a Language?" section).
 
 ### Scope
 
