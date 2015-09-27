@@ -112,10 +112,6 @@ These may not be desired difficulties, but nevertheless they exist because of
 the constraints of chalk.
 
 ### Related work
-_Are there any other DSLs in this domain? If not, describe how you know there
-aren't and conjecture why not. If so, describe them and provide links. How well 
-do they address the need? Are there any particularly admirable qualities of the
-language? Are there parts of the language you think could be improved?_
 
 A related language is the version of HL which is created using bue tape and
 paper. This version of the language exists to solve some of the above problems,
@@ -129,18 +125,51 @@ This section examines whether the idea makes for a good CS 111 project.
 
 
 ### Suitability
-_If someone were to work on this project, what percentage of their time would be
-spent directly engaging in the **language** aspects of this project (e.g.,
-making language design decisions), as opposed to "systems" aspects of the
-project (e.g., implementing a complicated semantics that doesn't require a lot
-of language design)?_
 
+I'm not actually very sure if this would make a good DSLs project. Mot of the
+limitations in the current use of the language seem systems-y - more related to
+the medium in which the language is written than the actually form of the
+language itself.
+
+Notably the most pressing issues are how to write HL indoors and on rough
+terrain, which seem to be more problems of finding a way to leave messages
+indoors that are temporary and do not annoy the users of the indoor space.
+
+One neat idea might be to try to leave electronic messages. Perhaps the hares
+could mark out a path on some sort of map interface and that path could be
+incrementally displayed to the hounds as they progress along it. Activities
+could be left as waypoints on the map. This seems somewhat technically
+challenging, but if a lot of the GPS stuff could be handled by a library there
+might end up being enough time left over to think making the experience of
+setting a hash as good as possible.
 
 ### Scope
-_How big an idea is this? How ambitious is this project?_
 
+Whether the electronic redesign of the language would be of an appropriate
+scope is very dependent on the difficulty of implementation - I think the
+linguistic part of it would be very doable (mostly thinking about
+making a really smooth UI that allows hares to communicate routes effectively).
+The application would have to be written as either a very versatile web-app or
+as a native application on Android/iOS. I think either one would be pretty
+challenging to do, and I think that ultimately this would be more
+implementation work than is appropriate or feasible for a DSLs project.
 
 ### Benefits and drawbacks
-_Why might this be a good idea for a project? Why might this not be a good idea 
-project?_
+
+One of the benefits of this project would be getting to work on an intensely
+spatial language that interfaces heavily with the real world. Most programming
+languages interface with computer screens at their very most spatial, so trying
+to help people mark paths on the real world would be pretty novel and
+interesting.
+
+I think the scope of the technical challenges this project poses would
+definitely be a drawback - spending a bunch of time getting GPS to work or
+struggling with Android/iOS isn't really the intent of the class.
+
+I also think that there isn't a lot of demand for an electronic version of the
+language. Hashers seem pretty content with what they have, and someone doing
+this project would really have to been down what advantages the electronic
+version would have. In particular, an electronic version seems like it would
+clash with the old ideal of hounds chasing the hares in real time as the lay
+the route (although many people lay it in advance anyway).
 
