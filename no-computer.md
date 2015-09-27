@@ -59,8 +59,8 @@ markings on the group. These chalk marking form a number of units of meaning:
 
 Activities can also refer to a number of known concepts for specifying who
 should do an activity:
-   * FRB[xN] - 'Front Running Bastard' (or first N people).
-   * DFL[xN] - 'Dead Fucking Last' (or last N people).
+   * FRB[xN] - 'Front Running B------' (or first N people).
+   * DFL[xN] - 'Dead F----- Last' (or last N people).
    * N - the number of people on the hash.
 
 HL routes thus consist of chains of these symbols linked by arrows. Programs
