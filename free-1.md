@@ -80,7 +80,7 @@ In either case they would write statements like:
 
 ```
 circle x with center C
-line y tangent to C at point D
+line y tangent to x at point D
 line z through points C and D
 ```
 
